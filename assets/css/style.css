@@ -215,10 +215,9 @@ body {
 .sec1 > div.right .right_desc{}
 .sec1 > div.right .right_desc .swiper-image{
   background:#f4f4f4;
-
 }
 .sec1 > div.right .right_desc h2{
-  font-size: 47px;
+  font-size: 3vw;
   font-family: 'Gentium Basic', serif;
   font-weight:500;
 }
@@ -238,10 +237,9 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 13.8px;
   font-weight: 500;
+  color:#000;
 }
-.sec1 > div.right .right_img{
-  border:1px solid red;
-}
+
 .sec1 .left img{
   height:100%;
 }
