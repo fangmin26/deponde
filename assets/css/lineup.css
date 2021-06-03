@@ -41,7 +41,6 @@ body {
 }
 
 #section1 {
-  border: 1px solid red;
   width: 100%;
   background: url(../image/deephydra-b5-key.jpg) no-repeat center center;
   background-size: cover;
@@ -53,7 +52,7 @@ body {
 }
 
 #information {
-  background: url(../image/sand.jpg)no-repeat;
+  background: url(../image/sand.jpg) no-repeat;
   background-size: cover;
   filter: saturate(0.4);
 }
@@ -75,7 +74,6 @@ body {
 .header_logo {
   width: 140px;
 }
-
 
 .header_logo .st0 {
   fill: none;
@@ -99,11 +97,11 @@ body {
 .header_nav ul li a {
   display: inline-block;
   padding-right: 6vw;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 500;
   color: #000;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .header_nav ul li:hover a {
@@ -134,11 +132,11 @@ body {
 .header_nav_responsive ul li a {
   display: inline-block;
   padding: 0 3vw;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 500;
   color: #000;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .header_nav_responsive ul li:hover a {
@@ -153,7 +151,8 @@ body {
   padding-right: 0;
 }
 
-.header_menu {}
+.header_menu {
+}
 
 .header_menu span {
   padding-right: 2.57vw;
@@ -175,7 +174,7 @@ body {
   fill: none;
   stroke: #000;
   stroke-width: 1.5;
-  stroke-miterlimit: 10
+  stroke-miterlimit: 10;
 }
 
 /*sec1*/
@@ -189,7 +188,7 @@ body {
   text-align: right;
   color: #fff;
   font-size: 43px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   font-weight: 700;
   line-height: 1;
   margin-top: 56px;
@@ -203,14 +202,13 @@ body {
   display: inline-block;
   text-align: right;
   font-size: 15px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 300;
   color: #fff4ec;
   width: 430px;
   line-height: 1.4;
   word-break: keep-all;
 }
-
 
 /*sec2*/
 .sec2 {
@@ -228,7 +226,8 @@ body {
   padding-bottom: 54px;
 }
 
-.sec2 .sec2_tit h3 {}
+.sec2 .sec2_tit h3 {
+}
 
 .sec2 .sec2_tit span {
   display: block;
@@ -239,8 +238,8 @@ body {
   margin-top: -3px;
 }
 
-.sec2 .sec2_tit em {}
-
+.sec2 .sec2_tit em {
+}
 
 .sec2 .sec2_cont {
   width: 100%;
@@ -253,21 +252,21 @@ body {
 }
 
 /*600이상일때는 2등분*/
-@media(min-width:600px) {
+@media (min-width: 600px) {
   .sec2 .sec2_cont {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /*800이상일때는 3등분*/
-@media(min-width:800px) {
+@media (min-width: 800px) {
   .sec2 .sec2_cont {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 /*1080이상일때는 3등분*/
-@media(min-width:1080px) {
+@media (min-width: 1080px) {
   .sec2 .sec2_cont {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -284,7 +283,6 @@ body {
   background: #e4e4e4;
 }
 
-
 .sec2 .sec2_cont .cont_box .lineup_tag {
   position: absolute;
   top: 6%;
@@ -298,7 +296,7 @@ body {
   text-align: center;
   line-height: 20px;
   font-size: 10px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 500;
 }
 
@@ -344,7 +342,7 @@ body {
 
 .sec2 .sec2_cont .cont_box .sec2_conts h3 {
   margin-top: 18px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   font-weight: 800;
   font-size: 18px;
   letter-spacing: -2px;
@@ -353,7 +351,7 @@ body {
 }
 
 .sec2 .sec2_cont .cont_box .sec2_conts em {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 12px;
   font-weight: 400;
   margin-top: 10px;
@@ -367,7 +365,6 @@ body {
   color: #fff;
 }
 
-
 /*information*/
 .information {
   height: 22.1vw;
@@ -379,7 +376,7 @@ body {
   position: relative;
   width: 33.333%;
   height: 100%;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   color: #323e3b;
   line-height: 1;
   display: flex;
@@ -389,7 +386,7 @@ body {
 }
 
 .information .info::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 50%;
@@ -418,7 +415,7 @@ body {
 
 .information .info span a {
   color: #323e3b;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
 .information .info span:hover a {
@@ -444,15 +441,15 @@ body {
 .footer .footer_btn span {
   float: left;
   display: block;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: .8vw;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 0.8vw;
   font-weight: 500;
   padding: 5px 20px;
   margin-right: 8px;
   text-align: center;
   line-height: 2.4vw;
   background: #2e2d29;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
 .footer .footer_btn span:hover {
@@ -463,12 +460,12 @@ body {
 .footer .footer_desc {
   padding: 33px 0 52px 0;
   box-sizing: border-box;
-  border-bottom: .7px solid #a6b3a6;
+  border-bottom: 0.7px solid #a6b3a6;
 }
 
 .footer .footer_desc p {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: .75vw;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 0.75vw;
   font-weight: 400;
   line-height: 2.8;
 }
@@ -480,7 +477,7 @@ body {
 
 .footer .footer_info span {
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
   float: left;
@@ -500,7 +497,7 @@ body {
   top: 7px;
   left: 0;
   display: block;
-  content: '';
+  content: "";
   background: #a6b3a6;
   width: 1px;
   height: 10px;
@@ -510,10 +507,10 @@ body {
   display: inline-block;
   font-size: 11px;
   font-weight: 500;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
   padding: 0 1.64vw;
-  transition: .5s all ease;
+  transition: 0.5s all ease;
 }
 
 .footer .footer_info .sns li:hover a {
@@ -528,7 +525,7 @@ body {
   padding-right: 0;
 }
 
-@media(max-width:1380px) {
+@media (max-width: 1380px) {
   .container {
     width: 100%;
   }
@@ -558,25 +555,25 @@ body {
     right: 0;
     transform: translateY(-50%);
   }
-
 }
 
-@media(max-width:1200px) {}
+@media (max-width: 1200px) {
+}
 
-@media(max-width:1080px) {
+@media (max-width: 1080px) {
   .sec1 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .sec1>h2 {
+  .sec1 > h2 {
     color: #504b45;
     font-size: 6vw;
     margin-top: 0;
   }
 
-  .sec1>p {
+  .sec1 > p {
     display: none;
   }
 
@@ -585,14 +582,13 @@ body {
   }
 }
 
-@media(max-width:900px) {
-
+@media (max-width: 900px) {
   .footer {
     height: 44vw;
   }
 }
 
-@media(max-width:800px) {
+@media (max-width: 800px) {
   .footer .footer_btn {
     padding-top: 5vw;
     display: flex;
@@ -625,7 +621,7 @@ body {
   }
 }
 
-@media(max-width:680px) {
+@media (max-width: 680px) {
   .header_nav_responsive {
     width: 250px;
   }
@@ -660,7 +656,7 @@ body {
   }
 }
 
-@media(max-width:680px) {
+@media (max-width: 680px) {
   .sec1 {
     height: 500px;
   }
@@ -674,13 +670,13 @@ body {
     max-width: 500px;
   }
 }
-@media(max-width:600px) {
+@media (max-width: 600px) {
   .sec2 .sec2_cont .cont_box .lineup_tag {
     width: 15.5%;
   }
-.sec2 .sec2_cont .cont_box .lineup_tag div {
-  height: 26px;
-  line-height: 26px;
-  font-size: 12px;
-}
+  .sec2 .sec2_cont .cont_box .lineup_tag div {
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+  }
 }
