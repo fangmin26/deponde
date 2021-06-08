@@ -222,6 +222,7 @@ body {
   height: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 60px;
   padding-bottom: 54px;
 }
@@ -229,13 +230,11 @@ body {
 .sec2 .sec2_tit h3 {
 }
 
-.sec2 .sec2_tit span {
+.sec2 .sec2_tit .material-icons {
   display: block;
-  width: 24px;
-  height: 24px;
-  border: 1px solid black;
-  border-radius: 50%;
   margin-top: -3px;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .sec2 .sec2_tit em {
